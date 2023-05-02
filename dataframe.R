@@ -1,0 +1,6 @@
+name=c("john","jack","ram")
+age<-c(23,19,20)
+marks=c(68,88,75)
+df=data.frame(name,age,marks)
+View(df)
+write.csv(df,"df.csv")
