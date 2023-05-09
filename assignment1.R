@@ -1,0 +1,8 @@
+Teams=c("Athars","Samudras","Mughals","Rajyas","Dheeras")
+art=c(45,67,32,90,78)
+nailart=c(67,45,98,65,87)
+mehandi=c(34,67,43,77,78)
+handpaint=c(88,77,56,74,39)
+fest=data.frame(Teams,art,nailart,mehandi,handpaint)
+View(fest)
+write.csv(fest,"fest.csv")
